@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC
+        "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+        "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+
+<module>
+
+    <source path="client"/>
+
+    <generate-with class="com.havronius.gwt.reflection.bean.compile.BeanClassesGenerator">
+        <when-type-assignable class="com.havronius.gwt.reflection.bean.client.BeanClasses" />
+    </generate-with>
+
+    <define-configuration-property name="com.havronius.reflection.bean.classes" is-multi-valued="true" />
+
+</module>
